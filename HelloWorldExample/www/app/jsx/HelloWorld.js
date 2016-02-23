@@ -1,9 +1,4 @@
-var MyComponent = React.createClass({
-    render: function(){
-        return (
-            <h1>Hello World!</h1>
-        );
-    }
-});
-
-React.render(<MyComponent />, document.getElementById('myDiv'));
+ReactDOM.render(
+  React.createElement('h1', null, 'Hello, world!'),
+  document.getElementById('example')
+);
