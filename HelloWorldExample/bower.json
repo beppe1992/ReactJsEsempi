@@ -1,0 +1,19 @@
+{
+  "name": "HelloWorldExample",
+  "description": "Esempio Hello World con ReactJs",
+  "main": "Index.html",
+  "moduleType": [],
+  "authors": [
+    "Giuseppe Giordano"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
